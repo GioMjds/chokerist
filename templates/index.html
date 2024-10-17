@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student 1</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form action="/user" method="post">
+        <p>First Name : </p>
+        <input type="text" name="firstname" id="firstname" required>
+        <p>Last Name : </p>
+        <input type="text" name="lastname" id="lastname" required>
+        <p>Student ID : </p>
+        <input type="text" name="studentID" id="studentID" required>
+        <p>Course : </p>
+        <input type="text" name="course" id="course" required>
+        <p>Block : </p>
+        <input type="text" name="block" id="block" required>
+        <p>Subject : </p>
+        <select name="subject" id="subject">
+            <option value="CC 2102">CC 2102</option>
+            <option value="CC 2103">CC 2103</option>
+            <option value="IT 2102">IT 2102</option>
+            <option value="IT 2103">IT 2103</option>
+            <option value="IT 2104">IT 2104</option>
+            <option value="IT 2105">IT 2105</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
